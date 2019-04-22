@@ -1,10 +1,5 @@
-<html>
-  <head>
-    <title>IdeaBox</title>
-  </head>
-  <body>
-    <h1>IdeaBox</h1>
-    <form action="/<%= id %>" method='POST'>
+<h1>IdeaBox</h1>
+<form action="/<%= id %>" method='POST'>
       <p>
         Edit your Idea:
       </p>
@@ -12,6 +7,4 @@
       <input type='text' name='idea[title]' value="<%= idea.title %>"/><br/>
       <textarea name='idea[description]'><%= idea.description %></textarea><br/>
       <input type='submit'/>
-    </form>
-  </body>
-</html>
+</form>

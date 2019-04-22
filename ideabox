@@ -1,4 +1,7 @@
 ---
 ideas:
-- title: quran app
+- !ruby/hash:Sinatra::IndifferentHash
+  title: quran apps
   description: visualization
+- title: chat bot
+  description: auto reply things
