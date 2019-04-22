@@ -3,5 +3,9 @@ ideas:
 - !ruby/hash:Sinatra::IndifferentHash
   title: quran apps
   description: visualization
-- title: chat bot
+- !ruby/hash:Sinatra::IndifferentHash
+  title: chat bot
   description: auto reply things
+- !ruby/hash:Sinatra::IndifferentHash
+  title: note taking app
+  description: more privacy
